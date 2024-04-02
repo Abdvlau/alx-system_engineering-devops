@@ -39,8 +39,8 @@ frontend Abdvlau-tech-frontend
 
 backend Abdvlau-tech-backend
     balance roundrobin
-    server 151666-web-01 100.25.203.31 check
-    server 151666-web-02 35.174.205.87 check
+    server 524929-web-01 100.25.203.31:80 check
+    server 524929-web-02 35.174.205.87:80 check
 "
 
 # shellcheck disable=SC2154
