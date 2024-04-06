@@ -34,11 +34,11 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend Abdvlau-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend Abdvlau-tech-backend
 
-backend clickviral-tech-backend
+backend Abdvlau-tech-backend
     balance roundrobin
     server 524929-web-01 100.25.203.31:80 check
     server 524929-web-02 35.174.205.87:80 check
